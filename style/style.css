@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(255, 0, 0);
     font-family: sans-serif;
 }
 
@@ -13,6 +12,8 @@ body {
     display: table;
     clear: both;
 }
+
+/* <!-- header --> */
 .sidebar{
     background-image: url(../img/img/jumbo.png);
     background-size: cover;
@@ -20,7 +21,6 @@ body {
     max-width: 100%;
     height: 400px;
     margin: 0 auto;
-    
 }
 .header-nav{
     background-color: rgb(49, 97, 224);
@@ -98,17 +98,138 @@ body {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 40%;
-    left: 50%;
-    
+    left: 50%;  
 }
-h1{
+.h1-boxc{
     font-size: 50px;
     color: white;
     margin-bottom: 30px;
     text-shadow: 2px 2px 2px #3a3a3a;
 }
-p{
+.p-boxc{
     font-size: 17px;
     color: white;
     margin-bottom: 30px;
 }
+/* <!-- main --> */
+
+/* <!-- main1 - main3 --> */
+
+.main1-boxmain1{
+    width: 60%;
+    vertical-align: middle;
+    text-align: center;
+    padding: 40px;
+    float: left;
+}
+
+.main1-boxmain2{
+    width: 40%;
+    vertical-align: middle;
+    text-align: left;
+    padding-top: 50px;
+    float: right;
+}
+
+.imgboxmain1, .imgboxmain3{ 
+    width: auto; 
+    height: 300px;
+}
+
+.h1-main1{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+}
+
+.p-main1{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding-right: 10px;
+    padding-left: 50px;
+}
+
+/* <!-- main2 --> */
+.background-grey {
+    background-color: lightgrey;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.main2-boxmain3{
+    width: 40%;
+    vertical-align: middle;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 80px;
+    float: left;
+}
+
+.main2-boxmain4{
+    width: 60%;
+    vertical-align: middle;
+    text-align: right;
+    padding-top: 10px;
+    float: right;
+}
+
+.imgboxmain2{ 
+    width: auto; 
+    height: 300px;
+}
+
+.h1-main2{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 15px;
+}
+
+.p-main2{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+/* main4 */
+.main4-boxmain1{
+    text-align: center;
+}
+
+.h1-main4{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 40px;
+}
+.h3-main4{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.p-main4{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 40px;
+}
+.prontoadiniziarelatuaavventura{
+   width: 100%;
+   height: 100px;
+   line-height: 50px;
+}
+.bottoneblu{
+    color: white;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: rgb(55, 157, 252);
+    border-radius: 20px;
+    padding: 15px 15px;
+    font-size: 14px;
+    box-shadow: 2px 2px 2px #3a3a3a;
+}
+.bottoneblu:hover{
+    text-decoration: underline;
