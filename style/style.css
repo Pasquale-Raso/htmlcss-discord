@@ -155,7 +155,7 @@ body {
 .background-grey {
     background-color: lightgrey;
     height: auto;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 
 .main2-boxmain3{
@@ -197,7 +197,7 @@ body {
 }
 
 .h1-main4{
-    font-size: 25px;
+    font-size: 35px;
     color: rgb(0, 0, 0);
     text-align: center;
     padding-top: 40px;
@@ -233,3 +233,60 @@ body {
 }
 .bottoneblu:hover{
     text-decoration: underline;
+}
+
+/* footer */
+
+.background-scuro{
+    width: 100%;
+    background-color: rgb(43, 49, 49);
+    padding-top: 60px;
+}
+.colonna1scuro{
+    width: 35%;
+    float: left;
+}
+.h1colonna{
+    font-size: 35px;
+    color: rgb(55, 157, 252)
+}
+ .colonne{
+    width: calc( 65% / 4);
+    float: left;
+}
+.titolo-li{
+    color: rgb(55, 157, 252);
+}
+.semplici-li-a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+.semplici-li-a:hover {
+    text-decoration: underline;
+}
+.ul{
+    list-style-type: none;
+    line-height: 40px;
+    font-weight: bold;
+}
+hr{
+    margin-top: 20px;
+}
+#logo2{
+    text-align: center;
+    vertical-align: middle;
+    margin: 30px;
+}
+.bottonebluregistrati{
+    color: white;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: rgb(55, 157, 252);
+    border-radius: 20px;
+    padding: 15px 15px;
+    font-size: 14px;
+    box-shadow: 2px 2px 2px #3a3a3a;
+    float: right;
+    margin-top: 20px;
+}
